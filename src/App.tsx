@@ -1,7 +1,7 @@
-import "./App.css";
+import { Button } from "ui-kit";
 
 const App = () => {
-  return <div className="App"></div>;
+  return <Button variant="contained">Contact Us</Button>;
 };
 
 export default App;

@@ -6,7 +6,7 @@ import typography from "./typography";
 export const MuiTheme = createTheme({
   spacing: 4,
   palette,
-  shape: { borderRadius: 4 },
+  shape: { borderRadius: 0 },
   typography: {
     fontFamily: "'Poppins', sans-serif",
     fontSize: 14,
