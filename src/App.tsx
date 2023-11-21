@@ -1,7 +1,13 @@
-import { Button } from "ui-kit";
+import { Footer, Header, Main } from "components";
 
 const App = () => {
-  return <Button variant="contained">Contact Us</Button>;
+  return (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  );
 };
 
 export default App;

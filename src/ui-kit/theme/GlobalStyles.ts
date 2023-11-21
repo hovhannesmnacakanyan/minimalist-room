@@ -23,12 +23,8 @@ export const MyGlobalStyles = createGlobalStyle`
   }
 
   ::-webkit-scrollbar-thumb {
-	background-color: ${alpha(theme.palette.primary.main, 0.3)};
-  border-radius: ${theme.shape.borderRadius}px;
-}
-
-  html, body, #root {
-    height: 100%;
+    background-color: ${alpha(theme.palette.primary.main, 0.3)};
+    border-radius: ${theme.shape.borderRadius}px;
   }
 
   body {
@@ -46,7 +42,8 @@ export const MyGlobalStyles = createGlobalStyle`
 
   img, picture, video, canvas {
     display: block;
-    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
   }
 
   input, button, textarea, select {
